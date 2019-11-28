@@ -1,0 +1,22 @@
+{
+  "name": "frontend-project-lvl1",
+  "version": "1.0.0",
+  "description": "First education project_hexlet",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/f7vn/frontend-project-lvl1.git"
+  },
+  "keywords": [
+    "hexlet"
+  ],
+  "author": "f7vn",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/f7vn/frontend-project-lvl1/issues"
+  },
+  "homepage": "https://github.com/f7vn/frontend-project-lvl1#readme"
+}

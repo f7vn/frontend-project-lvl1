@@ -1,0 +1,33 @@
+{
+  "name": "f7vn_front1",
+  "version": "1.0.0",
+  "description": "First education project_hexlet",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "NODE_ENV=production babel src --out-dir dist --source-maps inline",
+    "prepublishOnly": "npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/f7vn/frontend-project-lvl1.git"
+  },
+  "keywords": [
+    "hexlet"
+  ],
+  "author": "f7vn",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/f7vn/frontend-project-lvl1/issues"
+  },
+  "homepage": "https://github.com/f7vn/frontend-project-lvl1#readme",
+  "devDependencies": {
+    "@babel/core": "^7.7.0",
+    "@babel/cli": "^7.7.2",
+    "@babel/node": "^7.7.0",
+    "@babel/preset-env": "^7.7.0"
+  },
+  "bin": {
+    "brain-games": "dist/bin/brain-games.js"
+  }
+}
