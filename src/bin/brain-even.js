@@ -1,6 +1,6 @@
 #!/usr/bin/node
 import readlineSync from 'readline-sync';
-import sayHello from '..';
+import { sayHello } from '..';
 
 // Функция для получения рандомного числа от 0 до 100
 function getRandomInt(min, max) {
@@ -42,5 +42,4 @@ const brainEven = (name) => {
 
 greetings();
 const name = sayHello();
-console.log(`Hello, ${name}!\n`);
 brainEven(name);
