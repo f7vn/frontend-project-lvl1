@@ -41,5 +41,4 @@ const brainEven = (name) => {
 };
 
 greetings();
-const name = sayHello();
-brainEven(name);
+brainEven(sayHello());

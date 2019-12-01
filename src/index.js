@@ -30,3 +30,17 @@ export const error = (userAnsw, realAnsw, name) => {
 export function equal(str1, str2) {
   return str1 === str2 ? 1 : 0;
 }
+
+export const isPrime = (num) => {
+  let n = 2;
+  if (num === 0 || num === 1) {
+    return 0;
+  }
+  while (n < num) {
+    if (num % n === 0) {
+      return 0;
+    }
+    n += 1;
+  }
+  return 1;
+};
