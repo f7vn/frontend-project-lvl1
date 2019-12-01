@@ -12,3 +12,6 @@ https://asciinema.org/a/coCE9l7DMjOjvSQth2BDP07sU
 
 <h3>asciinema-video step7</h3>
 https://asciinema.org/a/bLtsy4cfZJFJKRtMtDn7RsAnP
+
+<h3>asciinema-video step8</h3>
+https://asciinema.org/a/rpZmh7Qwg3yJN2uzyBPIxhsCO
