@@ -1,4 +1,3 @@
-#!/usr/bin/node
 import {
   getRandomInt, question, error, equal,
 } from '..';
