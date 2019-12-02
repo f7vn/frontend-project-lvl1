@@ -6,8 +6,12 @@ import {
 // get rez
 const rez = (num1, num2) => {
   let nod = 1;
+  let low = num1;
   let n = 1;
-  while (n < num1) {
+  if (num1 > num2) {
+    low = num2;
+  }
+  while (n <= low) {
     if (num1 % n === 0 && num2 % n === 0) {
       nod = n;
     }
